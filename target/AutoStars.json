@@ -1,0 +1,126 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Customer should be able to see recently viewed products",
+        "description": "",
+        "id": "recently-viewed-products;customer-should-be-able-to-see-recently-viewed-products",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1186283676,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Customer on a products page",
+            "match": {
+              "location": "MyStepdefs.Customer_on_a_products_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2265055562,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "select a product for view",
+            "match": {
+              "location": "MyStepdefs.select_a_product_for_view()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1993009261,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "press on Recently Viewed Products",
+            "match": {
+              "location": "MyStepdefs.press_on_Recently_Viewed_Products()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 69825502,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Customer should be able to see viewed product on Recently Viewed Product Page",
+            "match": {
+              "location": "MyStepdefs.customer_should_be_able_to_see_viewed_product_on_Recently_Viewed_Product_Page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Recently Viewed Products",
+    "description": "",
+    "id": "recently-viewed-products",
+    "keyword": "Feature",
+    "uri": "nopcommerce/RecentlyViewedProducts.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Customer should be able to see  products",
+        "description": "",
+        "id": "recently-viewed;customer-should-be-able-to-see--products",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "Customer on a products pages",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "select a products for view",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "press on Recently Viewed Product",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "Customer should be able to see viewed products on Recently Viewed Products Page",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Recently Viewed",
+    "description": "",
+    "id": "recently-viewed",
+    "keyword": "Feature",
+    "uri": "nopcommerce/dryrun.feature"
+  }
+]
